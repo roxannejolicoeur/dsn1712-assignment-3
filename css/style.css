@@ -79,7 +79,7 @@ filter: grayscale(70%);
 }
 
 
-#services .wrapper{
+#services .wrapper div{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
@@ -102,11 +102,14 @@ border: 2px solid #000;
 border-radius: 4px;
 
 margin-top: auto;
-padding: 20px;
+padding: 15px;
 }
 #services a:hover, #services a:focus{
     background-color: #fff;
     color: #000;
+}
+#services article p {
+    padding-bottom: 2em;
 }
 .grid-1 article p{
 margin-bottom: 2rem;
